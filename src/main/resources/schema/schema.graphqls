@@ -1,4 +1,4 @@
 type Query {
-    goodQuery(filter: String size: Int = 5 page: Int = 0 sort: String): Boolean
-    badQuery(filter: String size: Int = 5 page: Int = 0 sort: String): Boolean
+    goodQuery(filter: String size: Int! = 5 page: Int! = 0 sort: String): Boolean
+    badQuery(filter: String size: Int! = 5 page: Int! = 0 sort: String): Boolean
 }
